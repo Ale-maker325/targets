@@ -19,19 +19,18 @@
     "power_max": 6,
     "power_default": 2,
 
-    "power_lna_gain": 0,
+    "power_lna_gain": 12,
 
     "power_control": 0,
     "button": 0,
     "power_values": [114,117,120,124,127],
 
+
     "screen_sck": 22,
     "screen_sda": 21,
     "screen_type": 1,
 
-    "debug_backpack_baud": 460800,
-    "debug_backpack_rx": 3,
-    "debug_backpack_tx": 1,
+    
 
     "misc_fan_en": 16,
     "led": 27
