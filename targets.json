@@ -397,6 +397,15 @@
                     "offset": "0x4000",
                     "bootloader": "sx1272_pcb_bootloader.bin"
                 }
+            },
+            "ESP32_S3_MINI": {
+                "product_name": "DIY ESP32-S3-MINI  TX ",
+                "lua_name": "ESP32 S3 TX 900",
+                "layout_file": "DIY S3 900 TX.json",
+                "upload_methods": ["uart", "wifi", "etx"],
+                "min_version": "3.4.0",
+                "platform": "esp32-s3",
+                "firmware": "Unified_ESP32S3_900_TX"
             }
         },
         "rx_900": {
@@ -442,6 +451,7 @@
                     "bootloader": "sx1272_pcb_bootloader.bin"
                 }
             }
+
         },
         "tx_2400": {
             "mini": {
@@ -495,6 +505,7 @@
                 "platform": "esp32-s3",
                 "firmware": "Unified_ESP32S3_2400_TX"
             }
+
         },
         "rx_2400": {
             "true_diversity_pwm16_s3": {
