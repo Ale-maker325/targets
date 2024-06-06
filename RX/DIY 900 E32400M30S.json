@@ -25,11 +25,6 @@
     "button": 0,
     "power_values": [113,117,121,127],
 
-    "screen_sck": 22,
-    "screen_sda": 21,
-    "screen_type": 1,
-
-    
     "misc_fan_en": 16,
     "led": 27
 }
