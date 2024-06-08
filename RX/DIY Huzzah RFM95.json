@@ -13,6 +13,6 @@
     "power_max": 0,
     "power_default": 0,
     "power_control": 0,
-    "power_values": [127],
+    "power_values": [15],
     "led": 0
 }

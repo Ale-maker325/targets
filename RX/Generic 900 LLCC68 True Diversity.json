@@ -1,7 +1,7 @@
 {
     "serial_rx": 3,
     "serial_tx": 1,
-
+    
     "radio_miso": 33,
     "radio_mosi": 32,
     "radio_rst": 26,
@@ -15,18 +15,12 @@
     "radio_dio1_2": 34,
     "radio_nss_2": 13,
 
-    "power_rxen": 10,
-    "power_txen": 14,
-    "power_rxen_2": 9,
-    "power_txen_2": 15,
-    "power_lna_gain": 12,
-
-    "power_min": 0,
-    "power_high": 3,
-    "power_max": 3,
-    "power_default": 3,
-    "power_control": 0,
-    "power_values": [-10,-6,-3,1],
+    "power_min":0,
+    "power_high":3,
+    "power_max":3,
+    "power_default":2,
+    "power_control":0,
+    "power_values":[10,14,17,22],
 
     "led_rgb": 22,
     "led_rgb_isgrb": true,
