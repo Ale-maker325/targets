@@ -508,9 +508,6 @@
                 "product_name": "WEMOS_D32_LR1121_TX_2",
                 "lua_name": "WEMOS_D32_LR1121_TX_2",
                 "layout_file": "DIY_LR1121_433_TX_2.json",
-                "overlay": {
-                    "radio_rfsw_ctrl":[15, 0, 0, 0, 8, 12, 0, 0]
-                },
                 "logo_file": "elrs64.bin",
                 "upload_methods": ["uart", "wifi"],
                 "min_version": "3.4.0",
