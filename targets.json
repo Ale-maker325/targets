@@ -478,19 +478,16 @@
             }
         }
     },
-    "diy": {
-        "name": "DIY devices",
+    "UA_lr1121":{
+        "name": "UA LR1121",
         "tx_dual": {
             "Wemos_D32_LR1121_TX": {
-                "product_name": "Wemos D32 2.4/400 TX",
+                "product_name": "WEMOS_D32_LR1121_TX",
                 "lua_name": "Wemos D32 2.4/400",
-                "layout_file": "DIY LR1121 433 TX.json",
-                "overlay": {
-                    "radio_rfsw_ctrl": [15, 0, 4, 12, 4, 2, 0, 1]
-                },
+                "layout_file": "DIY_LR1121_433_TX.json",
                 "logo_file": "elrs64.bin",
                 "upload_methods": ["uart", "wifi"],
-                "min_version": "3.0.0",
+                "min_version": "3.4.0",
                 "platform": "esp32",
                 "firmware": "Unified_ESP32_LR1121_TX"
             },
@@ -499,15 +496,30 @@
                 "lua_name": "Devkit D3 2.4/400",
                 "layout_file": "DIY LR1121 433 D4 TX.json",
                 "overlay": {
-                    "radio_rfsw_ctrl": [15, 0, 4, 5, 8, 2, 0, 1]
+                    "radio_rfsw_ctrl":[15, 0, 0, 0, 8, 12, 0, 0]
                 },
                 "logo_file": "elrs64.bin",
                 "upload_methods": ["uart", "wifi"],
-                "min_version": "3.0.0",
+                "min_version": "3.4.0",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_LR1121_TX"
+            },
+            "Wemos_D32_LR1121_TX_2": {
+                "product_name": "WEMOS_D32_LR1121_TX_2",
+                "lua_name": "WEMOS_D32_LR1121_TX_2",
+                "layout_file": "DIY_LR1121_433_TX_2.json",
+                "overlay": {
+                    "radio_rfsw_ctrl":[15, 0, 0, 0, 8, 12, 0, 0]
+                },
+                "logo_file": "elrs64.bin",
+                "upload_methods": ["uart", "wifi"],
+                "min_version": "3.4.0",
                 "platform": "esp32",
                 "firmware": "Unified_ESP32_LR1121_TX"
             }
-        },
+        }
+    },
+    "diy": {
         "tx_900": {
             "ttgov1": {
                 "product_name": "DIY TTGO V1 900MHz TX",
